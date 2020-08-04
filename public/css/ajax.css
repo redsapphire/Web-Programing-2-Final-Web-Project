@@ -1,0 +1,81 @@
+/*
+ ** Orignl Work done by 
+    Christain Hur
+-----------------------*/
+#main-container{
+    margin:0 auto 10px auto;
+    padding:0 0 50px 0;
+	
+}
+
+nav ul {
+    list-style: none;
+	margin: 0% 26%;
+	
+}
+
+nav ul li{
+    display: inline-block;    
+	
+}
+
+/* FORMS */
+form {
+    margin:30px auto;
+    font-size: large;
+    width:500px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 7px;
+	
+}
+
+.form-controls {
+    margin:10px auto;    
+	
+}
+
+.form-controls input {
+    width:200px;
+	
+}
+
+.form-controls label{
+    display: inline-block;
+    width:100px;
+    text-align: right;
+	
+}
+
+/* Table */
+.table-books{
+    margin:10px auto;  
+    border:1px solid #400040;
+    background-color:#400040;
+}
+
+table button{
+    padding:2px;
+    width:70px;
+	
+}
+.table-books thead {
+    color:white;
+	
+}
+
+.table-books tbody tr:nth-child(odd) {
+    background-color: seashell;
+	
+}
+
+.table-books tbody tr:nth-child(even) {
+    background-color: white;
+	
+	
+}
+
+.table-books th, .table-books td {
+    padding:7px;
+	
+}

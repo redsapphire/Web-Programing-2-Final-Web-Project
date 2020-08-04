@@ -1,0 +1,53 @@
+<div class="content">
+    <h1>Welcome to my personal home page!</h1>
+    <br><br>
+    <p>{{message}}</p>
+    <div>
+        <p>My Favorite Colors:</p>
+        {{#each colors}}
+        <span>{{this}}</span>
+        {{/each}}
+    </div>
+    <div>
+        <p>My Pet:</p>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                {{#each pets}}
+                <tr>
+                    <td>{{name}}</td>
+                    <td>{{type}}</td>
+                    <td>{{age}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+    <!-- 
+        in order to make this page look neat 
+        the <p> Element was moved to the /about page 
+    -->
+    <br><br><br>
+    <section>
+        <h1>Multimedia Content</h1>
+        <!-- Show and hide buttons -->
+        <button onclick="showMedia()">Show</button>
+        <button onclick="hideMedia()">Hide</button>
+        <div id="media">
+            <!-- video tag -->
+            <video width="620" height="340" controls>
+                <source src="videos/lighthouse.m4v">
+                Your browser does not support the video tag.
+                <!--For older browsers that don't support this tag-->
+            </video>
+            <!-- audio tag -->
+            <audio width="620" height="340" controls>
+                <source src="audio/podcast.mp3">
+            </audio>
+        </div>
+    </section>
+</div>

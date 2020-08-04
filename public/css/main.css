@@ -1,0 +1,326 @@
+/* CSS Page */
+
+/**
+  * Red Sapphire Software Soultions
+    The Red Saphhire gemstone (style design and concept),
+	as well as the red and blue text coloring logo are registered 
+	trademarks and sole property of the owner (Kordell Bergemann) 
+	of Red Sapphire Software Soultions	
+	© 2020 All Rights Reserved.	
+  **/
+  
+/* 
+ ** The following note is addressed to christain hur (seeing this is going on github ☺) 
+							
+							<=== Note Start ===>
+    The following CSS documentation(or I call itdocumentation commenting) 
+	might not be the "proper way" of commenting documentation but I find it 
+	very neat and easy to read ☺ and another thing to mention is ignore all 
+	the leagl jargon I put it in because this is going on GitHub and I don't want
+	some random 'person'(weather or not from GitHub or otherwise) 
+	to steal my idea 
+					       <=== Note End ===>
+  */
+
+/*
+ ** <=== main page(s) styling ===>
+--------------------------- */ 
+*{
+  box-sizing: border-box;
+  
+}
+
+body { 
+	width:-moz-available;
+  	width:-webkit-fill-available;
+	padding-top:100px; 
+	margin:0 auto; 
+	font-family:Calibri, sans-serif;
+	background: white;
+
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+/* 
+ ** Media section
+--------------------------- */
+section h1 {
+	text-align: left;
+
+}
+
+/* 
+ ** buttons
+--------------------------- */
+button{
+    font-size: larger;
+    margin:2px;
+    border-radius: 4px;
+    border:1px solid black;
+    padding: 5px;
+    width:100px;
+	
+}
+
+button:hover{
+    background-color: #400040;
+    color:white;
+    cursor: pointer;
+	
+}
+
+/* 
+ ** The Red Saphhire gemstone logo 
+	(style design and concept),
+	are registered trademarks and sole 
+	property of the owner (Kordell Bergemann) 
+	of Red Sapphire Software Soultions	
+--------------------------- */
+img {
+	padding: 30px 6px 0%;
+	margin: -10% 20% 0px;
+	height: 240px;
+	width: 560px;
+
+}
+/* 
+ ** Navbar
+--------------------------- */
+#nav {
+	border:2px solid black;
+	border-width:3px 0;
+	list-style:none;
+	margin-top: 0px;
+	padding:0;
+	text-align:center;
+	background-color: #400040;
+
+}
+
+#nav li {
+	position:relative;
+	display:inline;
+
+}
+
+#nav a {
+	display:inline-block;
+	padding:25px;
+
+}
+
+#nav ul {
+	position:absolute;
+	/*top:100%; Uncommenting this makes the dropdowns work in IE7 but looks a little worse in all other browsers. Your call. */
+	left:-9999px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	/*background-color: ;*/
+
+}
+
+#nav ul li {
+	display:block;
+
+}
+
+#nav li:hover ul {
+	left:0;
+
+}
+
+#nav li:hover a {
+	text-decoration:underline;
+	background: none;
+	/*opacity: 0.5;*/
+
+}
+
+#nav li:hover ul a {
+	text-decoration:none;
+	background:none;
+
+}
+
+#nav li:hover ul a:hover {
+	text-decoration:underline;
+	background:none;
+
+}
+
+#nav ul a {
+	white-space:nowrap;
+	display:block;
+	border-bottom:1px solid #ccc;
+
+}
+
+a {
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size: 15pt;
+}
+
+a:hover {
+	text-decoration:underline;
+	/*background:#f1f1f1;*/
+
+}
+
+/*
+ ** main content 
+---------------------------- */
+.content {
+	color: black;
+	margin: 0% 6%;
+	
+}
+
+.review-logo {
+	margin: 0% 28%;
+	
+}
+
+.about {
+	margin: 0% 18%;
+	
+}
+
+/* 
+ ** footer 
+--------------------------- */
+.footer {
+	text-align: center;
+	font-size: 12pt;
+	text-decoration: none;
+
+}
+
+/* 
+ ** Bread crumb
+--------------------------- */
+ul.breadcrumb {
+	margin: 26% 0% 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-align: center;
+	list-style: none;
+	background-color: #400040;
+	padding: 1px;
+	/*	padding: 17px 16px;	*/ 
+	/** 
+	 * Uncooment above padding
+	 * if you decide to use hyperlinks 
+	 * in your breadcrub navagation 
+	**/
+	
+}
+
+/** 
+ * Uncooment the following ul.breadcrumb 
+   CSS Styles
+ * if you decide to use hyperlinks 
+ * in your breadcrub navagation 
+ **/
+ 
+/*
+ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+  
+}
+
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+  
+}
+
+ul.breadcrumb li a {
+	color: deepskyblue;
+	text-decoration: none;
+  
+}
+
+ul.breadcrumb li a:hover {
+	color: deepskyblue; /*#01447e;*/
+	/*text-decoration: underline;
+  
+}
+*/
+
+
+.copyright p {
+	color: white;
+    margin-top: 44px;
+    margin-left: 1%;
+    font-size: 10px;
+
+}
+
+/* 
+ ** the red and blue text coloring logo
+    © 2020 Red Sapphire Software Soultions
+	All Rights Reserved
+--------------------------- */
+.rs1 {
+	color: #f43636;
+	
+}
+
+.rs2 {
+	color: #316dfd;
+
+}
+
+.rs3 {
+	color: white;
+	
+}
+
+.w2-rs{
+	color: black;
+	
+}
+
+/*
+ ** Contact Form 
+--------------------------- */
+
+.contact {
+  background-color: moccasin;
+  
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #323232;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #400040;
+  
+}
